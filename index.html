@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <script type="module" src="main.js"></script>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <title>Films Firebase</title>
+</head>
+<body>
+    <h1>Liste des Films</h1>
+
+    <div class="connexion">
+        <h2>Connexion</h2>
+        <form class="connect">
+            <input type="text" name="user" placeholder="User" required />
+            <input type="text" name="pass" placeholder="Password" required />
+            <button>Connexion</button>
+        </form> 
+    </div>
+
+    <div class="isConnect">
+        <form class="disconnect">
+            <button type="submit">Se déconnecter</button>
+        </form>
+        <div id="films-list"></div>
+        <h2>Ajouter un Film</h2>
+        <form class="ajout">
+            <input type="text" name="nom" placeholder="Nom du film" required />
+            <input type="date" name="date" required />
+            <input type="number" name="note" placeholder="Note" min="0" max="5" required />
+            <button>Ajouter</button>
+        </form>
+    </div>
+
+</body>
+</html>

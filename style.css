@@ -1,0 +1,16 @@
+div{
+    margin: 2rem;
+}
+
+input{
+    height: 1.3rem;
+    margin-right: 1rem;
+}
+
+.connexion{
+    display: block;
+}
+
+.isConnect{
+    display: none;
+}
